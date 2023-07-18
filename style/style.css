@@ -1,0 +1,215 @@
+/* Work sans font from google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+header{
+    background-color: gray;
+    padding: 50px 100px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav >ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #0e0d0d;
+}
+/* nav title */
+.nav-title{
+    font-size: 1.25rem;
+    font-weight:600;
+    color: #131313;
+}
+
+.title-span-color{
+    color: #F948B2;
+}
+
+/* header follow us on icon set up */
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px solid blue;
+    padding: 10px;
+  } */
+  .fa {
+    padding: 10px ;
+    font-size: 1rem;
+    width:10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 15px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: .7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  /* border-radius:2px solid #bb0000 ; */
+  color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.lastbox{
+    width: 262px;
+    height: 56px;
+    padding: 5px;
+    flex-shrink: 0;;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(11, 2, 35, 0.10);
+  }
+/* .box{
+    width: 901px;
+    height: 700px;
+    flex-shrink: 0;
+    background-image: url(/images/Group\ 14.png);
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    text-align: left;
+
+} */
+.container {
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    flex-shrink: 0;
+    text-align: right;
+  }
+  .box {
+    width: 901px;
+    height: 600px;
+    background-image: url('/images/Group\ 14.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  .box p{
+    text-align: left;
+  }
+
+.bannar-title{
+    color: #0B0223;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+  
+.gtitle{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .banarcontent p{
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+} */
+/* .banarcontent img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+} */
+.signin{
+    background-color: #F948B2;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+    font-weight: 700;
+    color:white ;
+    text-align: center;
+}
+.gorogue{
+    display: inline-flex;
+    font-weight: 700;
+    color:white ;
+    padding: 21px 40px;
+    border-radius: 40px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: aqua;
+}
+.gamers{
+    text-align: right;
+}
+.gamers h2{
+    color: #F948B2;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: right;
+}
+.gamers h4{
+    font-weight: 600;
+    font-size: 30px;
+    color: gray;
+}
+.text{
+    color: gray;
+    font-size: 20px;
+    font-weight: 800;
+}
+.funny{
+    text-align: center;
+}
+.funny .title-span-color{
+    color: #F948B2;
+}
+.funny h2{
+    font-size: 30px;
+}
+.funny .textf{
+    color: gray;
+}
